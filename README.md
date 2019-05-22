@@ -1,6 +1,6 @@
 # WBA2SS19YilmazKabakciSacu
 
-Problemdarstellung
+# Problemdarstellung
 
 Die Deutschen sind Aktienmuffel:
 
@@ -13,7 +13,7 @@ Die aktuellen positiven oder negativen Nachrichten zu den Unternehmen an der Bö
 bzgl. möglicher Kauf- bzw. Verkaufssignale sehr wichtig. Die Nachhaltung dieser Nachrichten ist allerdings für die Privathaushalte kaum möglich. 
 Die vorhandenen Systemlösungen sind viel zu komplex oder geben kaum Rahmen für den Benutzer über die Gewichtung der Einzelnen Bewertungskriterien mitzubestimmen.
 
-Expose
+# Expose
 
 Zotlar Share Room
 
