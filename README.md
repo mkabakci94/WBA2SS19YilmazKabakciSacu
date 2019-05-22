@@ -14,6 +14,7 @@ bzgl. möglicher Kauf- bzw. Verkaufssignale sehr wichtig. Die Nachhaltung dieser
 Die vorhandenen Systemlösungen sind viel zu komplex oder geben kaum Rahmen für den Benutzer über die Gewichtung der Einzelnen Bewertungskriterien mitzubestimmen.
 
 Expose
+
 Zotlar Share Room
 
 Mit unserem Projekt möchten wir den Menschen das Handeln mit Aktien vereinfachen. Man hat alle Aktien auf einem Blick und kann zusätzlich die Steigung und Senkung sehen. 
