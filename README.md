@@ -31,6 +31,41 @@ Use Case #2:	Sara Schmidt ist 34 und handelt seit einiger Zeit mit Aktien. Sie h
 Use Case #3:	Leon Decker ist 50 Jahre und würde gerne wissen was die aktuellen und beliebtesten Aktien sind. Er hat mehrere Bekannte gefragt, doch leider konnte niemand ihm was Genaues dazu sagen. Leider hat er selber nicht viel Zeit, um sich selber schlau zu machen, da er arbeitstätig ist und zusätzlich mehrere Hobbys hat. Ein Freund von ihm hat ihn auf die Seite „Zotlar Share Room“ aufmerksam gemacht. Ihm wurde gesagt, dass es dort einen Chat Raum gibt, wo sich die User untereinander austauschen können. Außerdem werden auch News zu den Aktien angezeigt, die aus verschiedenen Beiträgen, Nachrichten und Social Media Gruppen entnommen werden. 
 Der 50-jährige setzt sich an seinen Schreibtisch und besucht die Seite. Dort stößt er nicht nur auf die News nach denen er gesucht hatte sondern findet mehrere hilfreiche Informationen. 
 
+# Dienstnutzer
+# Beschreibung der Funktionalität (ggf. Anwendungslogik) und den Datenstrukturen mit Überlegungen dazu
+
+## Funktionen
+
+* Jeder kann sich die Aktien Liste anschauen
+* Jeder kann eine Aktie öffnen und die Informationen und die    Nachrichten sehen
+* User kann eine Aktie favorisieren
+* User kann ein Favorit entfernen
+* User kann Favoriten aus der Liste entfernen
+* User kriegt eine Empfehlung bzw. eine Bewertung zu einer Aktie
+* User kann im Chat Raum mit anderen Usern kommunizieren
+
+## Anwendungslogik
+
+* Aktienname können in die Suchfunktion geschrieben werden
+* Informationen werden aus Nachrichten, Charts und Twitter Beiträgen gefiltert und gewichtet -> eine Empfehlung an den User ausgeben
+* Empfehlungen -> User kann entscheiden ob er eine Empfehlung basierend auf die Nachrichten, Charts oder Twitter Beiträge möchte
+* Informationen werden aus Nachrichten, Charts und Twitter Beiträgen gefiltert und gewichtet -> eine Bewertung der Aktie
+
+
+# Überlegung zur Nutzung von Externen Webservicen
+
+Wir haben uns überlegt die API zu verwenden, die uns ermöglicht Aktien und deren Informationen zu benutzen. Dadurch kriegen wir auch immer einen aktuellen Stand der Aktien, dass heißt, dass wir ebenfalls die Informationen der Aktien von der API bekommen.
+Damit unser Ampelverfahren gut funktioniert und vertrauenswürdig ist, haben wir uns gedacht, dass wir Informationen zu Aktien aus Nachrichten, Beiträge und Charts rausfischen und sie dann bewerten. 
+Unser Server würde die verschiedenen APIs durchgehen und die gesuchten Stichworte wie Aktie, 2019, Steigung, usw.. filtern. Diese Informationen werden bearbeitet und gewichtet.
+Die Entscheidung besteht aus 30% Nachrichten, 30% Twitter Beiträge und 40% der Charts. 
+
+# Beschreibung der asynchron implementierten Teile und Begründungen dazu
+
+Unser Projekt soll einen Chatraum besitzen, wo sich die User untereinander austauschen und informieren können. Man kann dort seine Erfahrungen und seinen eigene Bewertung teilen. Zusätzlich kann man dort auch über Neuigkeiten die man gehört und gesehen hat erzählen. Somit haben unsere User nicht nur eine objektive Empfehlung bzw. eine Bewertung von unserem Server, sondern können sich auch subjektiv Meinungen einholen. Das Thema, des Chat Raumes, sollte hauptsächlich über die Aktien sein; es sollten nicht über privaten Themen gesprochen werden.
+
+# Beschreibung der Funktionalität, die aus Zeitmangel nicht umgesetzt werden konnte
+
+
 
 
 
