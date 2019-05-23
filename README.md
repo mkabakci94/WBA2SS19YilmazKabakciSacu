@@ -16,8 +16,8 @@ Die vorhandenen Systemlösungen sind viel zu komplex oder geben kaum Rahmen für
 # Expose
 
 Mit unserem Projekt möchten wir den Menschen das Handeln mit Aktien vereinfachen. Man hat alle Aktien auf einem Blick und kann zusätzlich die Steigung und Senkung sehen. 
-Wenn man auf die einzelnen Aktien geht, sieht man zusätzlich die Steigungen und Senkungen von einem Jahr grafisch. Es werden auch weitere Informationen, wie zum Beispiel.. 
-Durch die Hilfe von Social Media, Beiträgen und Nachrichten können wir unseren Nutzern, durch das Ampelverfahren drauf hinweisen, ob es diese Aktie momentan empfehlenswert ist oder nicht. 
+Wenn man auf die einzelnen Aktien geht, sieht man zusätzlich die Steigungen und Senkungen von einem Jahr grafisch. Es werden auch Nachrichten und Twitter Beiträgen angezeigt. 
+Durch die Hilfe von Twitte Beiträgen, Charts und Nachrichten können wir unseren Nutzern, durch das Ampelverfahren drauf hinweisen, ob es diese Aktie momentan empfehlenswert ist oder nicht und zusätzlich eine Bewertung der Aktien abgeben. 
 Die Vorteile unseres Projektes sind zu einem, dass die Aufbewahrung viel leichter und sicherer ist. Zum anderen hat man alle Informationen zu den Aktien auf einem Blick, was das Nutzen
 unserer Seite sehr erleichtert.Zusätzlich haben wir auch einen Chat Raum, wo sich die Usere untereinander austauschen können und ihre eigenen Erfahrungen mit den Aktien mitteilen können.
 Unsere User haben nicht nur eine objektive Empfehlungen sondern könne sich auch subjektive Einblicke kriegen.
