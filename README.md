@@ -1,6 +1,6 @@
 # WBA2SS19YilmazKabakciSacu
 
-# Problemdarstellung
+## Problemdarstellung
 
 Die Deutschen sind Aktienmuffel:
 
@@ -13,7 +13,7 @@ Die aktuellen positiven oder negativen Nachrichten zu den Unternehmen an der Bö
 bzgl. möglicher Kauf- bzw. Verkaufssignale sehr wichtig. Die Nachhaltung dieser Nachrichten ist allerdings für die Privathaushalte kaum möglich. 
 Die vorhandenen Systemlösungen sind viel zu komplex oder geben kaum Rahmen für den Benutzer über die Gewichtung der Einzelnen Bewertungskriterien mitzubestimmen.
 
-# Expose
+## Expose
 
 Mit unserem Projekt möchten wir den Menschen das Handeln mit Aktien vereinfachen. Man hat alle Aktien auf einem Blick und kann zusätzlich die Steigung und Senkung sehen. 
 Wenn man auf die einzelnen Aktien geht, sieht man zusätzlich die Steigungen und Senkungen von einem Jahr grafisch. Es werden auch Nachrichten und Twitter Beiträgen angezeigt. 
@@ -22,7 +22,7 @@ Die Vorteile unseres Projektes sind zu einem, dass die Aufbewahrung viel leichte
 unserer Seite sehr erleichtert.Zusätzlich haben wir auch einen Chat Raum, wo sich die Usere untereinander austauschen können und ihre eigenen Erfahrungen mit den Aktien mitteilen können.
 Unsere User haben nicht nur eine objektive Empfehlungen sondern könne sich auch subjektive Einblicke kriegen.
 
-# Use Cases
+## Use Cases
 
 Use Case #1:	Marco Müller ist 24 Jahre und interessiert sich seit einiger Zeit für Aktien. Er hat für sich passende Aktien gefunden und würde gerne wissen wie die Steigung und Senkung der Aktien bis jetzt aussehen, damit er sich ein Bild zu den einzelnen Aktien machen kann. Marco sitzt an seinem Laptop und versucht all diese Informationen zu sammeln. Dabei stößt er auf die Seite „Zotlar Share Room“. Dort kann er auf seine gewünschten Aktien klicken und dort kriegt er all die Informationen, die er braucht und sucht. Die Seite zeigt auch die Steigung und Senkung der Aktie in einem Diagramm dar.
 
@@ -32,9 +32,10 @@ Use Case #3:	Leon Decker ist 50 Jahre und würde gerne wissen was die aktuellen 
 Der 50-jährige setzt sich an seinen Schreibtisch und besucht die Seite. Dort stößt er nicht nur auf die News nach denen er gesucht hatte sondern findet mehrere hilfreiche Informationen. 
 
 # Dienstnutzer
-# Beschreibung der Funktionalität (ggf. Anwendungslogik) und den Datenstrukturen mit Überlegungen dazu
 
-## Funktionen
+## Beschreibung der Funktionalität (ggf. Anwendungslogik) und den Datenstrukturen mit Überlegungen dazu
+
+### Funktionen
 
 * Jeder kann sich die Aktien Liste anschauen
 * Jeder kann eine Aktie öffnen und die Informationen und die    Nachrichten sehen
@@ -44,7 +45,7 @@ Der 50-jährige setzt sich an seinen Schreibtisch und besucht die Seite. Dort st
 * User kriegt eine Empfehlung bzw. eine Bewertung zu einer Aktie
 * User kann im Chat Raum mit anderen Usern kommunizieren
 
-## Anwendungslogik
+### Anwendungslogik
 
 * Aktienname können in die Suchfunktion geschrieben werden
 * Informationen werden aus Nachrichten, Charts und Twitter Beiträgen gefiltert und gewichtet -> eine Empfehlung an den User ausgeben
@@ -52,18 +53,18 @@ Der 50-jährige setzt sich an seinen Schreibtisch und besucht die Seite. Dort st
 * Informationen werden aus Nachrichten, Charts und Twitter Beiträgen gefiltert und gewichtet -> eine Bewertung der Aktie
 
 
-# Überlegung zur Nutzung von Externen Webservicen
+## Überlegung zur Nutzung von Externen Webservicen
 
 Wir haben uns überlegt die API zu verwenden, die uns ermöglicht Aktien und deren Informationen zu benutzen. Dadurch kriegen wir auch immer einen aktuellen Stand der Aktien, dass heißt, dass wir ebenfalls die Informationen der Aktien von der API bekommen.
 Damit unser Ampelverfahren gut funktioniert und vertrauenswürdig ist, haben wir uns gedacht, dass wir Informationen zu Aktien aus Nachrichten, Beiträge und Charts rausfischen und sie dann bewerten. 
 Unser Server würde die verschiedenen APIs durchgehen und die gesuchten Stichworte wie Aktie, 2019, Steigung, usw.. filtern. Diese Informationen werden bearbeitet und gewichtet.
 Die Entscheidung besteht aus 30% Nachrichten, 30% Twitter Beiträge und 40% der Charts. 
 
-# Beschreibung der asynchron implementierten Teile und Begründungen dazu
+## Beschreibung der asynchron implementierten Teile und Begründungen dazu
 
 Unser Projekt soll einen Chatraum besitzen, wo sich die User untereinander austauschen und informieren können. Man kann dort seine Erfahrungen und seinen eigene Bewertung teilen. Zusätzlich kann man dort auch über Neuigkeiten die man gehört und gesehen hat erzählen. Somit haben unsere User nicht nur eine objektive Empfehlung bzw. eine Bewertung von unserem Server, sondern können sich auch subjektiv Meinungen einholen. Das Thema, des Chat Raumes, sollte hauptsächlich über die Aktien sein; es sollten nicht über privaten Themen gesprochen werden.
 
-# Beschreibung der Funktionalität, die aus Zeitmangel nicht umgesetzt werden konnte
+## Beschreibung der Funktionalität, die aus Zeitmangel nicht umgesetzt werden konnte
 
 
 
