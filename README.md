@@ -38,8 +38,9 @@ Der 50-jährige setzt sich an seinen Schreibtisch und besucht die Seite. Dort st
 ### Funktionen
 
 * Jeder kann sich die Aktien Liste anschauen
-* Jeder kann eine Aktie öffnen und die Informationen und die    Nachrichten sehen
-* User kann eine Aktie favorisieren
+* Jeder kann eine Aktie öffnen und die Informationen, Nachrichten und Beiträge ansehen
+* User kann eine Aktie zu Favoriten hinzufügen
+* User kann die Favoriten Liste anzeigen lassen
 * User kann ein Favorit entfernen
 * User kann Favoriten aus der Liste entfernen
 * User kriegt eine Empfehlung bzw. eine Bewertung zu einer Aktie
@@ -47,7 +48,7 @@ Der 50-jährige setzt sich an seinen Schreibtisch und besucht die Seite. Dort st
 
 ### Anwendungslogik
 
-* Aktienname können in die Suchfunktion geschrieben werden
+* Aktienname können in die Suchfunktion geschrieben werden -> es werden alle Aktien mit diesem Suchbegriff angegeben
 * Informationen werden aus Nachrichten, Charts und Twitter Beiträgen gefiltert und gewichtet -> eine Empfehlung an den User ausgeben
 * Empfehlungen -> User kann entscheiden ob er eine Empfehlung basierend auf die Nachrichten, Charts oder Twitter Beiträge möchte
 * Informationen werden aus Nachrichten, Charts und Twitter Beiträgen gefiltert und gewichtet -> eine Bewertung der Aktie
@@ -55,10 +56,11 @@ Der 50-jährige setzt sich an seinen Schreibtisch und besucht die Seite. Dort st
 
 ## Überlegung zur Nutzung von Externen Webservicen
 
-Wir haben uns überlegt die API zu verwenden, die uns ermöglicht Aktien und deren Informationen zu benutzen. Dadurch kriegen wir auch immer einen aktuellen Stand der Aktien, dass heißt, dass wir ebenfalls die Informationen der Aktien von der API bekommen.
-Damit unser Ampelverfahren gut funktioniert und vertrauenswürdig ist, haben wir uns gedacht, dass wir Informationen zu Aktien aus Nachrichten, Beiträge und Charts rausfischen und sie dann bewerten. 
-Unser Server würde die verschiedenen APIs durchgehen und die gesuchten Stichworte wie Aktie, 2019, Steigung, usw.. filtern. Diese Informationen werden bearbeitet und gewichtet.
-Die Entscheidung besteht aus 30% Nachrichten, 30% Twitter Beiträge und 40% der Charts. 
+Wir haben uns überlegt eine API zu verwenden, die uns ermöglicht Aktien und deren Informationen zu benutzen. Dadurch kriegen wir auch immer einen aktuellen Stand der Aktien, dass heißt, dass wir ebenfalls die Informationen der Aktien von der API bekommen.
+Damit unser Ampelverfahren vertrauenwürdige Bewertugen der Aktien und eine vertrauenswürdige Empfehlung an den User angibt, haben wir uns gedacht, dass Informationen von Aktien aus Nachrichten, Beiträge und Charts gefiltert und bewertet werden.
+Unser Server wird die verschiedenen APIs durchgehen und die gesuchten Stichworte filtern. 
+Die Entscheidung besteht aus 30% der Nachrichten, 30% der Twitter Beiträge und 40% der Charts. 
+Diese APIs werden auch verwendet, um bei den einzelnen Aktien die passenden Nachrichten, Beiträge und Charts anzuzeigen.
 
 ## Beschreibung der asynchron implementierten Teile und Begründungen dazu
 
