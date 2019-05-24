@@ -1,0 +1,26 @@
+{
+  "badnews" :[
+    { "bn": "Gewinnwarnung" },
+    { "bn": "Verlust" },
+    { "bn": "sell" },
+    { "bn": "Ärger" },
+    { "bn": "Klagen" },
+    { "bn": "getäuscht"},
+    { "bn": "sank"},
+    { "bn": "Krise"},
+    { "bn": "Umsatzeinbruch"},
+    { "bn": "entäuscht"}
+  ],
+  "goodnews" : [
+    { "gn":"buy"},
+    { "gn":"kaufempfehlung"},
+    { "gn":"ausgebaut"},
+    { "gn":"Ziel erreicht"},
+    { "gn":"Aktien zurückkaufen"},
+    { "gn":"zuversichtlich"},
+    { "gn":"stabile Umsatzzahlen"},
+    { "gn":"attraktiv"},
+    { "gn":"Rekordergebnis}"},
+    { "gn":"plus"}
+  ]
+}
