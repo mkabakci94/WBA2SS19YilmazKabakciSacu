@@ -1,0 +1,20 @@
+{
+  "News" : {
+  "name": "News",
+  "uriMain": "https://newsapi.org/v2/",
+    "params":{
+      "all":"/everything",
+      "topHead":"/top-headlines",
+      "topHeadCon":"/top-headlines?country=",
+      "topHeadCat":"/top-headlines?category=",
+      "search":"?q=",
+      "apiKey":"apiKey=b7c25bcc8daf49d7b8203d0bdd43c563"
+    }
+  },
+  "Api2" : {
+    "name":"Api2"
+  },
+  "Api3": {
+    "name":"Api3"
+  }
+}
