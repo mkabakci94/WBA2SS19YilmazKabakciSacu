@@ -31,7 +31,7 @@ Use Case #2:	Sara Schmidt ist 34 und handelt seit einiger Zeit mit Aktien. Sie h
 Use Case #3:	Leon Decker ist 50 Jahre und würde gerne wissen was die aktuellen und beliebtesten Aktien sind. Er hat mehrere Bekannte gefragt, doch leider konnte niemand ihm was Genaues dazu sagen. Leider hat er selber nicht viel Zeit, um sich selber schlau zu machen, da er arbeitstätig ist und zusätzlich mehrere Hobbys hat. Ein Freund von ihm hat ihn auf die Seite „Zotlar Share Room“ aufmerksam gemacht. Ihm wurde gesagt, dass es dort einen Chat Raum gibt, wo sich die User untereinander austauschen können. Außerdem werden auch News zu den Aktien angezeigt, die aus verschiedenen Beiträgen, Nachrichten und Social Media Gruppen entnommen werden. 
 Der 50-jährige setzt sich an seinen Schreibtisch und besucht die Seite. Dort stößt er nicht nur auf die News nach denen er gesucht hatte sondern findet mehrere hilfreiche Informationen. 
 
-# Dienstnutzer
+# Dienstgeber
 
 ## Beschreibung der Funktionalität (ggf. Anwendungslogik) und den Datenstrukturen mit Überlegungen dazu
 
