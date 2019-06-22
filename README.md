@@ -74,6 +74,8 @@ Unser Projekt soll einen Chatraum besitzen, wo sich die User untereinander austa
 
 ## Beschreibung der Funktionalität, die aus Zeitmangel nicht umgesetzt werden konnte
 
+Aus zeitlichen Gründen haben wir es nicht mehr geschafft, den Code für der Chat Room zu schreiben. Und es steht noch nicht fest, ob wir weiterhin an dem Code arbeiten, sodass der Chat Room vorhanden ist oder ob wir uns den anderen Aufgaben zuwenden werden.
+
 
 
 
