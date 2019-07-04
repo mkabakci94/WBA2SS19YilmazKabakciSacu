@@ -94,7 +94,7 @@ Für den Dienstnutzer ist Dank seiner Aktien-spezifischen Ressourcen mehr Anwend
 * News anzeigen
 * Neue News aufrufen
 * Empfehlungen ausgeben
-  * Empfehlungen bezügliche Wörte "Stichpunkte" filtern
+  * Empfehlungen bezügliche Wörter "Stichpunkte" filtern
 
 ## Beschreibung der Funktionalität, die aus Zeitmangel nicht umgesetzt werden konnte
 
