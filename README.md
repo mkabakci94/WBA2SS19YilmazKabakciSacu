@@ -76,6 +76,30 @@ Unser Projekt soll einen Chatraum besitzen, wo sich die User untereinander austa
 
 Aus zeitlichen Gründen haben wir es nicht mehr geschafft, den Code für der Chat Room zu schreiben. Und es steht noch nicht fest, ob wir weiterhin an dem Code arbeiten, sodass der Chat Room vorhanden ist oder ob wir uns den anderen Aufgaben zuwenden werden.
 
+# Dienstnutzer
+## Beschreibung der Funktionalität (ggf. Anwendungslogik) und den Datenstrukturen mit Überlegungen dazu
+
+### Funktionen
+Der Dienstnutzer verfügt über alle Ressourcen, die auch der Dienstgeber kennt. Diese werden jedoch um für die Aktien und News  sinnvolle Ressourcen erweitert. Zudem nutzt der Dienstnutzer die Ressourcen des Dienstgebers, um die Aktiensteigung- und senkung zuzeigen, und um die Neuigkeiten zu den auserwählten Aktien anzuzeigen. 
+
+### Anwendungslogik
+Für den Dienstnutzer ist Dank seiner Aktien-spezifischen Ressourcen mehr Anwendungslogik denkbar. So wurden zunächst folgende Operationen herausgestellt:
+* Neue Aktien anzeigen
+* Aktien aufrufen
+* Aktien suchen
+* Akteininformationen
+* Steigung anzeigen
+* Senkung angezeigen 
+* Aktien Preis angezeigen
+* News anzeigen
+* Neue News aufrufen
+* Empfehlungen ausgeben
+  * Empfehlungen bezügliche Wörte "Stichpunkte" filtern
+
+## Beschreibung der Funktionalität, die aus Zeitmangel nicht umgesetzt werden konnte
+
+Wir hatten das Problem, dass unsere Resoourcen keinen Endpunkt hatten, das heißt unsere Enden waren frei. Unsere Aktien haben keine Listenressourcen. Und dieses Problem konnten wir leider aus zeitlichen Gründen nicht mehr beheben.
+
 
 
 
