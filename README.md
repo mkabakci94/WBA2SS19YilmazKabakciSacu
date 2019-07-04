@@ -98,7 +98,7 @@ Für den Dienstnutzer ist Dank seiner Aktien-spezifischen Ressourcen mehr Anwend
 
 ## Beschreibung der Funktionalität, die aus Zeitmangel nicht umgesetzt werden konnte
 
-Wir hatten das Problem, dass unsere Resoourcen keinen Endpunkt hatten, das heißt unsere Enden waren frei. Unsere Aktien haben keine Listenressourcen. Und dieses Problem konnten wir leider aus zeitlichen Gründen nicht mehr beheben.
+Wir hatten das Problem, dass unsere Resoourcen keinen Endpunkt hatten, das heißt unsere Enden waren frei. Sie waren nicht adressierbar. Und dieses Problem konnten wir leider aus zeitlichen Gründen nicht mehr beheben.
 
 
 
