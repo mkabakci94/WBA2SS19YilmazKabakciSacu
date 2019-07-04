@@ -83,7 +83,7 @@ Aus zeitlichen Gründen haben wir es nicht mehr geschafft, den Code für der Cha
 Der Dienstnutzer verfügt über alle Ressourcen, die auch der Dienstgeber kennt. Diese werden jedoch um für die Aktien und News  sinnvolle Ressourcen erweitert. Zudem nutzt der Dienstnutzer die Ressourcen des Dienstgebers, um die Aktiensteigung- und senkung zuzeigen, und um die Neuigkeiten zu den auserwählten Aktien anzuzeigen. 
 
 ### Anwendungslogik
-Für den Dienstnutzer ist Dank seiner Aktien-spezifischen Ressourcen mehr Anwendungslogik denkbar. So wurden zunächst folgende Operationen herausgestellt:
+Für den Dienstnutzer ist Dank seiner *Aktien-spezifischen* Ressourcen mehr Anwendungslogik denkbar. So wurden zunächst folgende Operationen herausgestellt:
 * Neue Aktien anzeigen
 * Aktien aufrufen
 * Aktien suchen
@@ -91,6 +91,8 @@ Für den Dienstnutzer ist Dank seiner Aktien-spezifischen Ressourcen mehr Anwend
 * Steigung anzeigen
 * Senkung angezeigen 
 * Aktien Preis angezeigen
+
+*News-spezifische* Ressourcen:
 * News anzeigen
 * Neue News aufrufen
 * Empfehlungen ausgeben
