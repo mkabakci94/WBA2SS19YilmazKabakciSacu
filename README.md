@@ -100,8 +100,9 @@ Für den Dienstnutzer ist Dank seiner *Aktien-spezifischen* Ressourcen mehr Anwe
 
 ## Beschreibung der Funktionalität, die aus Zeitmangel nicht umgesetzt werden konnte
 
-Wir hatten das Problem, dass unsere Resoourcen keinen Endpunkt hatten, das heißt unsere Enden waren frei. Sie waren nicht adressierbar. Und dieses Problem konnten wir leider aus zeitlichen Gründen nicht mehr beheben. Daslag daran, dass wir sehr
+Wir hatten das Problem, dass unsere Resoourcen keinen Endpunkt hatten, das heißt unsere Enden waren frei. Sie waren nicht adressierbar. Und dieses Problem konnten wir leider aus zeitlichen Gründen nicht mehr beheben. Das lag daran, dass wir sehr
 lange gebraucht haben, bis wir unser Problem bzw. unseren Fehler auffindbar machen konnten.
+Desweiteren verwenden wir zwei apis, wir bekommen die Werte aus zwei verischiedenen APIs. Diese haben verschiedene Anfang- und Enduris, wir bräuchten einen Konten, wo man sie zusammen führen könnte. 
 
 
 
